@@ -27,3 +27,7 @@ func Random(strSet string, length int) (string, error) {
 
 	return string(res), nil
 }
+
+func FakeRandom() string {
+	return "mikasa"
+}
